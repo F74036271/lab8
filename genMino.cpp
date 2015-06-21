@@ -12,10 +12,10 @@ Mino* genMino()
 
 	switch(mino_type){
 		case MINO_J:
-			ptr=new MinoJ;
+			ptr=new MinoJ[50000000];
 			break;
 		case MINO_Z:
-			ptr=new MinoZ;
+			ptr=new MinoZ[50000000];
 			break;
 	}
 	return ptr;
